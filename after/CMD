@@ -1,0 +1,2 @@
+cp ./fonts.conf ~/.fonts.conf
+69-emoji.conf 70-no-dejavu.conf /home/ivan/.config/fontconfig/conf.d/
