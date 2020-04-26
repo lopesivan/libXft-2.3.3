@@ -1,0 +1,2 @@
+patch -Np1 -i 7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch
+./configure --prefix=/usr --sysconfdir=/etc --disable-static
