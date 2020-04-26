@@ -6,3 +6,640 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/7492b90/
+$(libman_PRE:man=$(LIB_MAN_SUFFIX))	man/Makefile.am	/^libman_DATA = $(libman_PRE:man=$(LIB_MAN_SUFFIX))$/;"	D	directory:libman
+-100,43 +131,75	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -100,43 +131,75 @@ XftGlyphRender (Display		*dpy,$/;"	h	modifiedFile:a/src/xftrender.c
+-112,6 +125,10	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -112,6 +125,10 @@ _compute_xrender_bitmap_size( FT_Bitmap*	target,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-134,6 +135,7	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -134,6 +135,7 @@ struct _XftFontInfo {$/;"	h	modifiedFile:a/src/xftint.h
+-142,6 +159,105	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -142,6 +159,105 @@ _compute_xrender_bitmap_size( FT_Bitmap*	target,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-244,6 +360,11	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -244,6 +360,11 @@ _fill_xrender_bitmap( FT_Bitmap*	target,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-25,6 +25,35	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -25,6 +25,35 @@$/;"	h	modifiedFile:a/src/xftrender.c
+-251,9 +314,10	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -251,9 +314,10 @@ XftGlyphSpecRender (Display		    *dpy,$/;"	h	modifiedFile:a/src/xftrender.c
+-26,6 +26,8	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -26,6 +26,8 @@$/;"	h	modifiedFile:a/src/xftglyphs.c
+-267,7 +331,7	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -267,7 +331,7 @@ XftGlyphSpecRender (Display		    *dpy,$/;"	h	modifiedFile:a/src/xftrender.c
+-275,7 +339,7	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -275,7 +339,7 @@ XftGlyphSpecRender (Display		    *dpy,$/;"	h	modifiedFile:a/src/xftrender.c
+-289,6 +353,11	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -289,6 +353,11 @@ XftGlyphSpecRender (Display		    *dpy,$/;"	h	modifiedFile:a/src/xftrender.c
+-320,23 +389,9	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -320,23 +389,9 @@ XftGlyphSpecRender (Display		    *dpy,$/;"	h	modifiedFile:a/src/xftrender.c
+-365,6 +486,8	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -365,6 +486,8 @@ XftFontLoadGlyphs (Display	    *dpy,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-374,6 +497,8	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -374,6 +497,8 @@ XftFontLoadGlyphs (Display	    *dpy,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-390,6 +515,8	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -390,6 +515,8 @@ XftFontLoadGlyphs (Display	    *dpy,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-43,12 +72,14	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -43,12 +72,14 @@ XftGlyphRender (Display		*dpy,$/;"	h	modifiedFile:a/src/xftrender.c
+-440,7 +567,7	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -440,7 +567,7 @@ XftFontLoadGlyphs (Display	    *dpy,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-487,7 +614,7	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -487,7 +614,7 @@ XftFontLoadGlyphs (Display	    *dpy,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-514,7 +514,7	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -514,7 +514,7 @@ XftFontInfoFill (Display *dpy, _Xconst FcPattern *pattern, XftFontInfo *fi)$/;"	h	modifiedFile:a/src/xftfreetype.c
+-519,18 +646,20	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -519,18 +646,20 @@ XftFontLoadGlyphs (Display	    *dpy,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-535,7 +590,7	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -535,7 +590,7 @@ XftGlyphFontSpecRender (Display			    *dpy,$/;"	h	modifiedFile:a/src/xftrender.c
+-560,7 +615,7	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -560,7 +615,7 @@ XftGlyphFontSpecRender (Display			    *dpy,$/;"	h	modifiedFile:a/src/xftrender.c
+-578,6 +633,11	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -578,6 +633,11 @@ XftGlyphFontSpecRender (Display			    *dpy,$/;"	h	modifiedFile:a/src/xftrender.c
+-610,23 +670,9	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -610,23 +670,9 @@ XftGlyphFontSpecRender (Display			    *dpy,$/;"	h	modifiedFile:a/src/xftrender.c
+-613,14 +742,27	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -613,14 +742,27 @@ XftFontLoadGlyphs (Display	    *dpy,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-645,9 +787,12	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -645,9 +787,12 @@ XftFontLoadGlyphs (Display	    *dpy,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-662,6 +807,7	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -662,6 +807,7 @@ XftFontLoadGlyphs (Display	    *dpy,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-685,15 +831,35	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -685,15 +831,35 @@ XftFontLoadGlyphs (Display	    *dpy,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-744,7 +910,9	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -744,7 +910,9 @@ XftFontUnloadGlyphs (Display		*dpy,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-766,6 +766,7	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -766,6 +766,7 @@ XftFontOpenInfo (Display	*dpy,$/;"	h	modifiedFile:a/src/xftfreetype.c
+-78,9 +80,11	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -78,9 +80,11 @@ _XftFontValidateMemory (Display *dpy, XftFont *public)$/;"	h	modifiedFile:a/src/xftglyphs.c
+-822,12 +823,16	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -822,12 +823,16 @@ XftFontOpenInfo (Display	*dpy,$/;"	h	modifiedFile:a/src/xftfreetype.c
+-842,9 +847,7	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -842,9 +847,7 @@ XftFontOpenInfo (Display	*dpy,$/;"	h	modifiedFile:a/src/xftfreetype.c
+-85,6 +85,7	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -85,6 +85,7 @@ typedef struct _XftGlyph {$/;"	h	modifiedFile:a/src/xftint.h
+-88,9 +92,18	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -88,9 +92,18 @@ _compute_xrender_bitmap_size( FT_Bitmap*	target,$/;"	h	modifiedFile:a/src/xftglyphs.c
+-959,6 +962,13	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^@@ -959,6 +962,13 @@ XftFontOpenInfo (Display	*dpy,$/;"	h	modifiedFile:a/src/xftfreetype.c
+.man.$(LIB_MAN_SUFFIX)	man/Makefile.am	/^.man.$(LIB_MAN_SUFFIX):$/;"	t
+AM_CFLAGS	src/Makefile.am	/^AM_CFLAGS = $(FONTCONFIG_CFLAGS) $(FREETYPE_CFLAGS) $(XRENDER_CFLAGS) \\$/;"	m
+CEIL	src/xftglyphs.c	/^#define CEIL(/;"	d	file:
+CLEANFILES	man/Makefile.am	/^CLEANFILES = $(libman_DATA)$/;"	m
+ChangeLog	Makefile.am	/^ChangeLog:$/;"	t
+EXTRA_DIST	Makefile.am	/^EXTRA_DIST = README.md$/;"	m
+EXTRA_DIST	man/Makefile.am	/^EXTRA_DIST = $(libman_PRE)$/;"	m
+FLOOR	src/xftglyphs.c	/^#define FLOOR(/;"	d	file:
+FONTCONFIG_CFLAGS	configure.ac	/^AC_SUBST(FONTCONFIG_CFLAGS)$/;"	s
+FONTCONFIG_LIBS	configure.ac	/^AC_SUBST(FONTCONFIG_LIBS)$/;"	s
+FREETYPE_CFLAGS	configure.ac	/^AC_SUBST(FREETYPE_CFLAGS)$/;"	s
+FREETYPE_LIBS	configure.ac	/^AC_SUBST(FREETYPE_LIBS)$/;"	s
+FT_Matrix_Equal	src/xftfreetype.c	/^#define FT_Matrix_Equal(/;"	d	file:
+HAVE_STDLIB_H	src/xftint.h	/^#define HAVE_STDLIB_H /;"	d
+INSTALL	Makefile.am	/^INSTALL:$/;"	t
+MAINTAINERCLEANFILES	Makefile.am	/^MAINTAINERCLEANFILES = ChangeLog INSTALL$/;"	m
+Missing	src/xftglyphs.c	/^#define Missing	/;"	d	file:
+NUM_ELT_LOCAL	src/xftrender.c	/^#define NUM_ELT_LOCAL	/;"	d	file:
+NUM_LOCAL	src/xftcore.c	/^#define NUM_LOCAL /;"	d	file:
+NUM_LOCAL	src/xftdraw.c	/^#define NUM_LOCAL /;"	d	file:
+NUM_LOCAL	src/xftextent.c	/^#define NUM_LOCAL /;"	d	file:
+NUM_LOCAL	src/xftrender.c	/^#define NUM_LOCAL	/;"	d	file:
+NUM_OBJECT_TYPES	src/xftname.c	/^#define NUM_OBJECT_TYPES /;"	d	file:
+NUM_XLFD_SLANTS	src/xftxlfd.c	/^#define NUM_XLFD_SLANTS /;"	d	file:
+NUM_XLFD_WEIGHTS	src/xftxlfd.c	/^#define NUM_XLFD_WEIGHTS /;"	d	file:
+ROUND	src/xftglyphs.c	/^#define ROUND(/;"	d	file:
+SUBDIRS	Makefile.am	/^SUBDIRS = man src$/;"	m
+SUFFIXES	man/Makefile.am	/^SUFFIXES = .$(LIB_MAN_SUFFIX) .man$/;"	m
+TRUNC	src/xftglyphs.c	/^#define TRUNC(/;"	d	file:
+XFT_ANTIALIAS	include/X11/Xft/XftCompat.h	/^#define XFT_ANTIALIAS	/;"	d
+XFT_ASSUME_PIXMAP	src/xftint.h	/^#define XFT_ASSUME_PIXMAP	/;"	d
+XFT_CHARCELL	include/X11/Xft/XftCompat.h	/^#define XFT_CHARCELL	/;"	d
+XFT_CHAR_HEIGHT	include/X11/Xft/XftCompat.h	/^#define XFT_CHAR_HEIGHT	/;"	d
+XFT_CHAR_WIDTH	include/X11/Xft/XftCompat.h	/^#define XFT_CHAR_WIDTH	/;"	d
+XFT_CORE	include/X11/Xft/Xft.h	/^#define XFT_CORE	/;"	d
+XFT_CORE	include/X11/Xft/Xft.h.in	/^#define XFT_CORE	/;"	d	file:
+XFT_DBG_CACHE	src/xftint.h	/^#define XFT_DBG_CACHE	/;"	d
+XFT_DBG_CACHEV	src/xftint.h	/^#define XFT_DBG_CACHEV	/;"	d
+XFT_DBG_DRAW	src/xftint.h	/^#define XFT_DBG_DRAW	/;"	d
+XFT_DBG_GLYPH	src/xftint.h	/^#define XFT_DBG_GLYPH	/;"	d
+XFT_DBG_GLYPHV	src/xftint.h	/^#define XFT_DBG_GLYPHV	/;"	d
+XFT_DBG_MEMORY	src/xftint.h	/^#define XFT_DBG_MEMORY	/;"	d
+XFT_DBG_OPEN	src/xftint.h	/^#define XFT_DBG_OPEN	/;"	d
+XFT_DBG_OPENV	src/xftint.h	/^#define XFT_DBG_OPENV	/;"	d
+XFT_DBG_REF	src/xftint.h	/^#define XFT_DBG_REF	/;"	d
+XFT_DBG_RENDER	src/xftint.h	/^#define XFT_DBG_RENDER	/;"	d
+XFT_DPI	include/X11/Xft/XftCompat.h	/^#define XFT_DPI	/;"	d
+XFT_DPY_MAX_GLYPH_MEMORY	src/xftint.h	/^#define XFT_DPY_MAX_GLYPH_MEMORY /;"	d
+XFT_DPY_MAX_UNREF_FONTS	src/xftint.h	/^#define XFT_DPY_MAX_UNREF_FONTS	/;"	d
+XFT_EMBEDDED_BITMAP	src/xftfreetype.c	/^#define XFT_EMBEDDED_BITMAP /;"	d	file:
+XFT_ENCODING	include/X11/Xft/XftCompat.h	/^#define XFT_ENCODING	/;"	d
+XFT_FAMILY	include/X11/Xft/XftCompat.h	/^#define XFT_FAMILY	/;"	d
+XFT_FILE	include/X11/Xft/XftCompat.h	/^#define XFT_FILE	/;"	d
+XFT_FONT_MAX_GLYPH_MEMORY	src/xftint.h	/^#define XFT_FONT_MAX_GLYPH_MEMORY /;"	d
+XFT_FOUNDRY	include/X11/Xft/XftCompat.h	/^#define XFT_FOUNDRY	/;"	d
+XFT_INDEX	include/X11/Xft/XftCompat.h	/^#define XFT_INDEX	/;"	d
+XFT_LT_VERSION	configure.ac	/^AC_SUBST([XFT_LT_VERSION])$/;"	s
+XFT_MAJOR	configure.ac	/^AC_DEFINE_UNQUOTED([XFT_MAJOR],$/;"	d
+XFT_MAJOR	include/X11/Xft/Xft.h	/^#define XFT_MAJOR /;"	d
+XFT_MATRIX	include/X11/Xft/XftCompat.h	/^#define XFT_MATRIX	/;"	d
+XFT_MAX_GLYPH_MEMORY	include/X11/Xft/Xft.h	/^#define XFT_MAX_GLYPH_MEMORY	/;"	d
+XFT_MAX_GLYPH_MEMORY	include/X11/Xft/Xft.h.in	/^#define XFT_MAX_GLYPH_MEMORY	/;"	d	file:
+XFT_MAX_UNREF_FONTS	include/X11/Xft/Xft.h	/^#define XFT_MAX_UNREF_FONTS	/;"	d
+XFT_MAX_UNREF_FONTS	include/X11/Xft/Xft.h.in	/^#define XFT_MAX_UNREF_FONTS	/;"	d	file:
+XFT_MEM_DRAW	src/xftint.h	/^#define XFT_MEM_DRAW	/;"	d
+XFT_MEM_FILE	src/xftint.h	/^#define XFT_MEM_FILE	/;"	d
+XFT_MEM_FONT	src/xftint.h	/^#define XFT_MEM_FONT	/;"	d
+XFT_MEM_GLYPH	src/xftint.h	/^#define XFT_MEM_GLYPH	/;"	d
+XFT_MEM_NUM	src/xftint.h	/^#define XFT_MEM_NUM	/;"	d
+XFT_MINOR	configure.ac	/^AC_DEFINE_UNQUOTED([XFT_MINOR],$/;"	d
+XFT_MINOR	include/X11/Xft/Xft.h	/^#define XFT_MINOR /;"	d
+XFT_MINSPACE	include/X11/Xft/XftCompat.h	/^#define XFT_MINSPACE	/;"	d
+XFT_MONO	include/X11/Xft/XftCompat.h	/^#define XFT_MONO	/;"	d
+XFT_NMISSING	include/X11/Xft/Xft.h	/^#define XFT_NMISSING	/;"	d
+XFT_NMISSING	include/X11/Xft/Xft.h.in	/^#define XFT_NMISSING	/;"	d	file:
+XFT_NUM_FONT_HASH	src/xftint.h	/^#define XFT_NUM_FONT_HASH	/;"	d
+XFT_NUM_SOLID_COLOR	src/xftint.h	/^#define XFT_NUM_SOLID_COLOR	/;"	d
+XFT_OUTLINE	include/X11/Xft/XftCompat.h	/^#define XFT_OUTLINE	/;"	d
+XFT_PIXEL_SIZE	include/X11/Xft/XftCompat.h	/^#define XFT_PIXEL_SIZE	/;"	d
+XFT_PROPORTIONAL	include/X11/Xft/XftCompat.h	/^#define XFT_PROPORTIONAL	/;"	d
+XFT_RASTERIZER	include/X11/Xft/XftCompat.h	/^#define XFT_RASTERIZER	/;"	d
+XFT_RENDER	include/X11/Xft/Xft.h	/^#define XFT_RENDER	/;"	d
+XFT_RENDER	include/X11/Xft/Xft.h.in	/^#define XFT_RENDER	/;"	d	file:
+XFT_REVISION	configure.ac	/^AC_DEFINE_UNQUOTED([XFT_REVISION],$/;"	d
+XFT_REVISION	include/X11/Xft/Xft.h	/^#define XFT_REVISION /;"	d
+XFT_RGBA	include/X11/Xft/XftCompat.h	/^#define XFT_RGBA	/;"	d
+XFT_RGBA_BGR	include/X11/Xft/XftCompat.h	/^#define XFT_RGBA_BGR	/;"	d
+XFT_RGBA_NONE	include/X11/Xft/XftCompat.h	/^#define XFT_RGBA_NONE	/;"	d
+XFT_RGBA_RGB	include/X11/Xft/XftCompat.h	/^#define XFT_RGBA_RGB	/;"	d
+XFT_RGBA_UNKNOWN	include/X11/Xft/XftCompat.h	/^#define XFT_RGBA_UNKNOWN	/;"	d
+XFT_RGBA_VBGR	include/X11/Xft/XftCompat.h	/^#define XFT_RGBA_VBGR	/;"	d
+XFT_RGBA_VRGB	include/X11/Xft/XftCompat.h	/^#define XFT_RGBA_VRGB	/;"	d
+XFT_SCALABLE	include/X11/Xft/XftCompat.h	/^#define XFT_SCALABLE	/;"	d
+XFT_SCALE	include/X11/Xft/XftCompat.h	/^#define XFT_SCALE	/;"	d
+XFT_SIZE	include/X11/Xft/XftCompat.h	/^#define XFT_SIZE	/;"	d
+XFT_SLANT	include/X11/Xft/XftCompat.h	/^#define XFT_SLANT	/;"	d
+XFT_SLANT_ITALIC	include/X11/Xft/XftCompat.h	/^#define XFT_SLANT_ITALIC	/;"	d
+XFT_SLANT_OBLIQUE	include/X11/Xft/XftCompat.h	/^#define XFT_SLANT_OBLIQUE	/;"	d
+XFT_SLANT_ROMAN	include/X11/Xft/XftCompat.h	/^#define XFT_SLANT_ROMAN	/;"	d
+XFT_SPACING	include/X11/Xft/XftCompat.h	/^#define XFT_SPACING	/;"	d
+XFT_STYLE	include/X11/Xft/XftCompat.h	/^#define XFT_STYLE	/;"	d
+XFT_VERSION	include/X11/Xft/Xft.h	/^#define XFT_VERSION	/;"	d
+XFT_VERSION	include/X11/Xft/Xft.h.in	/^#define XFT_VERSION	/;"	d	file:
+XFT_WEIGHT	include/X11/Xft/XftCompat.h	/^#define XFT_WEIGHT	/;"	d
+XFT_WEIGHT_BLACK	include/X11/Xft/XftCompat.h	/^#define XFT_WEIGHT_BLACK	/;"	d
+XFT_WEIGHT_BOLD	include/X11/Xft/XftCompat.h	/^#define XFT_WEIGHT_BOLD	/;"	d
+XFT_WEIGHT_DEMIBOLD	include/X11/Xft/XftCompat.h	/^#define XFT_WEIGHT_DEMIBOLD	/;"	d
+XFT_WEIGHT_LIGHT	include/X11/Xft/XftCompat.h	/^#define XFT_WEIGHT_LIGHT	/;"	d
+XFT_WEIGHT_MEDIUM	include/X11/Xft/XftCompat.h	/^#define XFT_WEIGHT_MEDIUM	/;"	d
+XFT_XLFD	include/X11/Xft/Xft.h	/^#define XFT_XLFD	/;"	d
+XFT_XLFD	include/X11/Xft/Xft.h.in	/^#define XFT_XLFD	/;"	d	file:
+XRENDER_CFLAGS	configure.ac	/^AC_SUBST(XRENDER_CFLAGS)$/;"	s
+XRENDER_LIBS	configure.ac	/^AC_SUBST(XRENDER_LIBS)$/;"	s
+X_SIZE	src/xftfreetype.c	/^#define X_SIZE(/;"	d	file:
+XftAdd	src/xftcore.c	/^#define XftAdd(/;"	d	file:
+XftAllocCount	src/xftinit.c	/^static int  XftAllocCount, XftAllocMem;$/;"	v	typeref:typename:int	file:
+XftAllocMem	src/xftinit.c	/^static int  XftAllocCount, XftAllocMem;$/;"	v	typeref:typename:int	file:
+XftAllocNotify	src/xftinit.c	/^static int  XftAllocNotify, XftFreeNotify;$/;"	v	typeref:typename:int	file:
+XftChar16	include/X11/Xft/XftCompat.h	/^typedef FcChar16    XftChar16;$/;"	t	typeref:typename:FcChar16
+XftChar32	include/X11/Xft/XftCompat.h	/^typedef FcChar32    XftChar32;$/;"	t	typeref:typename:FcChar32
+XftChar8	include/X11/Xft/XftCompat.h	/^typedef FcChar8	    XftChar8;$/;"	t	typeref:typename:FcChar8
+XftCharExists	src/xftglyphs.c	/^XftCharExists (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT FcBool
+XftCharFontSpec	include/X11/Xft/Xft.h	/^} XftCharFontSpec;$/;"	t	typeref:struct:_XftCharFontSpec
+XftCharFontSpec	include/X11/Xft/Xft.h.in	/^} XftCharFontSpec;$/;"	t	typeref:struct:_XftCharFontSpec	file:
+XftCharFontSpecRender	src/xftrender.c	/^XftCharFontSpecRender (Display			*dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftCharIndex	src/xftglyphs.c	/^XftCharIndex (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT FT_UInt
+XftCharSpec	include/X11/Xft/Xft.h	/^} XftCharSpec;$/;"	t	typeref:struct:_XftCharSpec
+XftCharSpec	include/X11/Xft/Xft.h.in	/^} XftCharSpec;$/;"	t	typeref:struct:_XftCharSpec	file:
+XftCharSpecRender	src/xftrender.c	/^XftCharSpecRender (Display		*dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftClip	src/xftint.h	/^} XftClip;$/;"	t	typeref:union:_XftClip
+XftClipRect	src/xftint.h	/^} XftClipRect;$/;"	t	typeref:struct:_XftClipRect
+XftClipRects	src/xftint.h	/^#define XftClipRects(/;"	d
+XftClipType	src/xftint.h	/^} XftClipType;$/;"	t	typeref:enum:_XftClipType
+XftClipTypeNone	src/xftint.h	/^    XftClipTypeNone, XftClipTypeRegion, XftClipTypeRectangles$/;"	e	enum:_XftClipType
+XftClipTypeRectangles	src/xftint.h	/^    XftClipTypeNone, XftClipTypeRegion, XftClipTypeRectangles$/;"	e	enum:_XftClipType
+XftClipTypeRegion	src/xftint.h	/^    XftClipTypeNone, XftClipTypeRegion, XftClipTypeRectangles$/;"	e	enum:_XftClipType
+XftColor	include/X11/Xft/Xft.h	/^} XftColor;$/;"	t	typeref:struct:_XftColor
+XftColor	include/X11/Xft/Xft.h.in	/^} XftColor;$/;"	t	typeref:struct:_XftColor	file:
+XftColorAllocName	src/xftcolor.c	/^XftColorAllocName (Display  *dpy,$/;"	f	typeref:typename:_X_EXPORT Bool
+XftColorAllocValue	src/xftcolor.c	/^XftColorAllocValue (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT Bool
+XftColorFree	src/xftcolor.c	/^XftColorFree (Display	*dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftConfigSubstitute	include/X11/Xft/XftCompat.h	/^#define XftConfigSubstitute(/;"	d
+XftDebug	src/xftdbg.c	/^XftDebug (void)$/;"	f	typeref:typename:_X_HIDDEN int
+XftDefaultGetBool	src/xftdpy.c	/^XftDefaultGetBool (Display *dpy, const char *object, int screen, Bool def)$/;"	f	typeref:typename:_X_HIDDEN Bool
+XftDefaultGetDouble	src/xftdpy.c	/^XftDefaultGetDouble (Display *dpy, const char *object, int screen, double def)$/;"	f	typeref:typename:_X_HIDDEN double
+XftDefaultGetInteger	src/xftdpy.c	/^XftDefaultGetInteger (Display *dpy, const char *object, int screen, int def)$/;"	f	typeref:typename:_X_HIDDEN int
+XftDefaultHasRender	src/xftdpy.c	/^XftDefaultHasRender (Display *dpy)$/;"	f	typeref:typename:_X_EXPORT Bool
+XftDefaultParseBool	src/xftdpy.c	/^XftDefaultParseBool (const char *v)$/;"	f	typeref:typename:_X_HIDDEN int
+XftDefaultSet	src/xftdpy.c	/^XftDefaultSet (Display *dpy, FcPattern *defaults)$/;"	f	typeref:typename:_X_EXPORT Bool
+XftDefaultSubstitute	src/xftdpy.c	/^XftDefaultSubstitute (Display *dpy, int screen, FcPattern *pattern)$/;"	f	typeref:typename:_X_EXPORT void
+XftDisplayInfo	src/xftint.h	/^} XftDisplayInfo;$/;"	t	typeref:struct:_XftDisplayInfo
+XftDraw	include/X11/Xft/Xft.h	/^typedef struct _XftDraw XftDraw;$/;"	t	typeref:struct:_XftDraw
+XftDraw	include/X11/Xft/Xft.h.in	/^typedef struct _XftDraw XftDraw;$/;"	t	typeref:struct:_XftDraw	file:
+XftDrawBitsPerPixel	src/xftdraw.c	/^XftDrawBitsPerPixel (XftDraw	*draw)$/;"	f	typeref:typename:_X_HIDDEN unsigned int
+XftDrawChange	src/xftdraw.c	/^XftDrawChange (XftDraw	*draw,$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawCharFontSpec	src/xftdraw.c	/^XftDrawCharFontSpec (XftDraw			*draw,$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawCharSpec	src/xftdraw.c	/^XftDrawCharSpec (XftDraw		*draw,$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawColormap	src/xftdraw.c	/^XftDrawColormap (XftDraw *draw)$/;"	f	typeref:typename:_X_EXPORT Colormap
+XftDrawCreate	src/xftdraw.c	/^XftDrawCreate (Display   *dpy,$/;"	f	typeref:typename:_X_EXPORT XftDraw *
+XftDrawCreateAlpha	src/xftdraw.c	/^XftDrawCreateAlpha (Display *dpy,$/;"	f	typeref:typename:_X_EXPORT XftDraw *
+XftDrawCreateBitmap	src/xftdraw.c	/^XftDrawCreateBitmap (Display	*dpy,$/;"	f	typeref:typename:_X_EXPORT XftDraw *
+XftDrawDepth	src/xftdraw.c	/^XftDrawDepth (XftDraw *draw)$/;"	f	typeref:typename:_X_HIDDEN unsigned int
+XftDrawDestroy	src/xftdraw.c	/^XftDrawDestroy (XftDraw	*draw)$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawDisplay	src/xftdraw.c	/^XftDrawDisplay (XftDraw *draw)$/;"	f	typeref:typename:_X_EXPORT Display *
+XftDrawDrawable	src/xftdraw.c	/^XftDrawDrawable (XftDraw *draw)$/;"	f	typeref:typename:_X_EXPORT Drawable
+XftDrawGlyphFontSpec	src/xftdraw.c	/^XftDrawGlyphFontSpec (XftDraw			*draw,$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawGlyphSpec	src/xftdraw.c	/^XftDrawGlyphSpec (XftDraw		*draw,$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawGlyphs	src/xftdraw.c	/^XftDrawGlyphs (XftDraw		*draw,$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawPicture	src/xftdraw.c	/^XftDrawPicture (XftDraw *draw)$/;"	f	typeref:typename:_X_EXPORT Picture
+XftDrawRect	src/xftdraw.c	/^XftDrawRect (XftDraw		*draw,$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawSetClip	src/xftdraw.c	/^XftDrawSetClip (XftDraw	*draw,$/;"	f	typeref:typename:_X_EXPORT Bool
+XftDrawSetClipRectangles	src/xftdraw.c	/^XftDrawSetClipRectangles (XftDraw		*draw,$/;"	f	typeref:typename:_X_EXPORT Bool
+XftDrawSetSubwindowMode	src/xftdraw.c	/^XftDrawSetSubwindowMode (XftDraw *draw, int mode)$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawSrcPicture	src/xftdraw.c	/^XftDrawSrcPicture (XftDraw *draw, _Xconst XftColor *color)$/;"	f	typeref:typename:_X_EXPORT Picture
+XftDrawString16	src/xftdraw.c	/^XftDrawString16 (XftDraw	    *draw,$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawString32	src/xftdraw.c	/^XftDrawString32 (XftDraw	    *draw,$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawString8	src/xftdraw.c	/^XftDrawString8 (XftDraw		    *draw,$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawStringUtf16	src/xftdraw.c	/^XftDrawStringUtf16 (XftDraw		*draw,$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawStringUtf8	src/xftdraw.c	/^XftDrawStringUtf8 (XftDraw	    *draw,$/;"	f	typeref:typename:_X_EXPORT void
+XftDrawVisual	src/xftdraw.c	/^XftDrawVisual (XftDraw *draw)$/;"	f	typeref:typename:_X_EXPORT Visual *
+XftFont	include/X11/Xft/Xft.h	/^} XftFont;$/;"	t	typeref:struct:_XftFont
+XftFont	include/X11/Xft/Xft.h.in	/^} XftFont;$/;"	t	typeref:struct:_XftFont	file:
+XftFontCheckGlyph	src/xftglyphs.c	/^XftFontCheckGlyph (Display	*dpy,$/;"	f	typeref:typename:_X_EXPORT FcBool
+XftFontClose	src/xftfreetype.c	/^XftFontClose (Display *dpy, XftFont *public)$/;"	f	typeref:typename:_X_EXPORT void
+XftFontCopy	src/xftfreetype.c	/^XftFontCopy (Display *dpy, XftFont *public)$/;"	f	typeref:typename:_X_EXPORT XftFont *
+XftFontDestroy	src/xftfreetype.c	/^XftFontDestroy (Display *dpy, XftFont *public)$/;"	f	typeref:typename:void	file:
+XftFontFindNthUnref	src/xftfreetype.c	/^XftFontFindNthUnref (XftDisplayInfo *info, int n)$/;"	f	typeref:typename:XftFont *	file:
+XftFontInfo	include/X11/Xft/Xft.h	/^typedef struct _XftFontInfo XftFontInfo;$/;"	t	typeref:struct:_XftFontInfo
+XftFontInfo	include/X11/Xft/Xft.h.in	/^typedef struct _XftFontInfo XftFontInfo;$/;"	t	typeref:struct:_XftFontInfo	file:
+XftFontInfoCreate	src/xftfreetype.c	/^XftFontInfoCreate (Display *dpy, _Xconst FcPattern *pattern)$/;"	f	typeref:typename:XftFontInfo *
+XftFontInfoDestroy	src/xftfreetype.c	/^XftFontInfoDestroy (Display *dpy, XftFontInfo *fi)$/;"	f	typeref:typename:_X_EXPORT void
+XftFontInfoEmpty	src/xftfreetype.c	/^XftFontInfoEmpty (Display *dpy, XftFontInfo *fi)$/;"	f	typeref:typename:void	file:
+XftFontInfoEqual	src/xftfreetype.c	/^XftFontInfoEqual (_Xconst XftFontInfo *a, _Xconst XftFontInfo *b)$/;"	f	typeref:typename:_X_EXPORT FcBool
+XftFontInfoFill	src/xftfreetype.c	/^XftFontInfoFill (Display *dpy, _Xconst FcPattern *pattern, XftFontInfo *fi)$/;"	f	typeref:typename:FcBool	file:
+XftFontInfoHash	src/xftfreetype.c	/^XftFontInfoHash (_Xconst XftFontInfo *fi)$/;"	f	typeref:typename:_X_EXPORT FcChar32
+XftFontInt	src/xftint.h	/^} XftFontInt;$/;"	t	typeref:struct:_XftFontInt
+XftFontLoadGlyphs	src/xftglyphs.c	/^XftFontLoadGlyphs (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftFontManageMemory	src/xftfreetype.c	/^XftFontManageMemory (Display *dpy)$/;"	f	typeref:typename:_X_HIDDEN void
+XftFontMatch	src/xftfont.c	/^XftFontMatch (Display		*dpy,$/;"	f	typeref:typename:_X_EXPORT FcPattern *
+XftFontOpen	src/xftfont.c	/^XftFontOpen (Display *dpy, int screen, ...)$/;"	f	typeref:typename:_X_EXPORT XftFont *
+XftFontOpenInfo	src/xftfreetype.c	/^XftFontOpenInfo (Display	*dpy,$/;"	f	typeref:typename:_X_EXPORT XftFont *
+XftFontOpenName	src/xftfont.c	/^XftFontOpenName (Display *dpy, int screen, const char *name)$/;"	f	typeref:typename:_X_EXPORT XftFont *
+XftFontOpenPattern	src/xftfreetype.c	/^XftFontOpenPattern (Display *dpy, FcPattern *pattern)$/;"	f	typeref:typename:_X_EXPORT XftFont *
+XftFontOpenXlfd	src/xftfont.c	/^XftFontOpenXlfd (Display *dpy, int screen, const char *xlfd)$/;"	f	typeref:typename:_X_EXPORT XftFont *
+XftFontSet	include/X11/Xft/XftCompat.h	/^typedef FcFontSet	XftFontSet;$/;"	t	typeref:typename:FcFontSet
+XftFontSetDestroy	include/X11/Xft/XftCompat.h	/^#define XftFontSetDestroy	/;"	d
+XftFontSetMatch	include/X11/Xft/XftCompat.h	/^#define XftFontSetMatch	/;"	d
+XftFontUnloadGlyphs	src/xftglyphs.c	/^XftFontUnloadGlyphs (Display		*dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftFreeCount	src/xftinit.c	/^static int  XftFreeCount, XftFreeMem;$/;"	v	typeref:typename:int	file:
+XftFreeMem	src/xftinit.c	/^static int  XftFreeCount, XftFreeMem;$/;"	v	typeref:typename:int	file:
+XftFreeNotify	src/xftinit.c	/^static int  XftAllocNotify, XftFreeNotify;$/;"	v	typeref:typename:int	file:
+XftFtFile	src/xftint.h	/^} XftFtFile;$/;"	t	typeref:struct:_XftFtFile
+XftGen	src/xftcore.c	/^#define XftGen(/;"	d	file:
+XftGet8	src/xftcore.c	/^#define XftGet8(/;"	d	file:
+XftGetImageErrorHandler	src/xftcore.c	/^static int XftGetImageErrorHandler (Display *dpy, XErrorEvent *error_event)$/;"	f	typeref:typename:int	file:
+XftGetInt	src/xftxlfd.c	/^XftGetInt(const char *ptr, int *val)$/;"	f	typeref:typename:const char *	file:
+XftGetVersion	src/xftinit.c	/^XftGetVersion (void)$/;"	f	typeref:typename:_X_EXPORT int
+XftGlyph	src/xftint.h	/^} XftGlyph;$/;"	t	typeref:struct:_XftGlyph
+XftGlyphCore	src/xftcore.c	/^XftGlyphCore (XftDraw		*draw,$/;"	f	typeref:typename:_X_HIDDEN void
+XftGlyphExists	include/X11/Xft/XftCompat.h	/^#define XftGlyphExists	/;"	d
+XftGlyphExtents	src/xftextent.c	/^XftGlyphExtents (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftGlyphFontSpec	include/X11/Xft/Xft.h	/^} XftGlyphFontSpec;$/;"	t	typeref:struct:_XftGlyphFontSpec
+XftGlyphFontSpec	include/X11/Xft/Xft.h.in	/^} XftGlyphFontSpec;$/;"	t	typeref:struct:_XftGlyphFontSpec	file:
+XftGlyphFontSpecCore	src/xftcore.c	/^XftGlyphFontSpecCore (XftDraw			*draw,$/;"	f	typeref:typename:_X_HIDDEN void
+XftGlyphFontSpecRender	src/xftrender.c	/^XftGlyphFontSpecRender (Display			    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftGlyphRender	src/xftrender.c	/^XftGlyphRender (Display		*dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftGlyphSpec	include/X11/Xft/Xft.h	/^} XftGlyphSpec;$/;"	t	typeref:struct:_XftGlyphSpec
+XftGlyphSpec	include/X11/Xft/Xft.h.in	/^} XftGlyphSpec;$/;"	t	typeref:struct:_XftGlyphSpec	file:
+XftGlyphSpecCore	src/xftcore.c	/^XftGlyphSpecCore (XftDraw		*draw,$/;"	f	typeref:typename:_X_HIDDEN void
+XftGlyphSpecRender	src/xftrender.c	/^XftGlyphSpecRender (Display		    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftInC	src/xftcore.c	/^#define XftInC(/;"	d	file:
+XftInOverC	src/xftcore.c	/^#define XftInOverC(/;"	d	file:
+XftInU	src/xftcore.c	/^#define XftInU(/;"	d	file:
+XftInUse	src/xftinit.c	/^} XftInUse[XFT_MEM_NUM] = {$/;"	v	typeref:struct:__anonccb9f7130108[]
+XftInit	src/xftinit.c	/^XftInit (_Xconst char *config)$/;"	f	typeref:typename:_X_EXPORT Bool
+XftInitFtLibrary	src/xftfreetype.c	/^XftInitFtLibrary (void)$/;"	f	typeref:typename:_X_EXPORT FcBool
+XftIntDiv	src/xftcore.c	/^#define XftIntDiv(/;"	d	file:
+XftIntMult	src/xftcore.c	/^#define XftIntMult(/;"	d	file:
+XftIsARGBFormat	src/xftrender.c	/^#define XftIsARGBFormat(/;"	d	file:
+XftListFonts	src/xftlist.c	/^XftListFonts (Display	*dpy,$/;"	f	typeref:typename:_X_EXPORT FcFontSet *
+XftListFontsPatternObjects	src/xftlist.c	/^XftListFontsPatternObjects (Display	    *dpy,$/;"	f	typeref:typename:_X_HIDDEN FcFontSet *
+XftLockFace	src/xftfreetype.c	/^XftLockFace (XftFont *public)$/;"	f	typeref:typename:_X_EXPORT FT_Face
+XftMatcher	src/xftint.h	/^} XftMatcher;$/;"	t	typeref:struct:_XftMatcher
+XftMatrix	include/X11/Xft/XftCompat.h	/^typedef FcMatrix XftMatrix;$/;"	t	typeref:typename:FcMatrix
+XftMatrixEqual	include/X11/Xft/XftCompat.h	/^#define XftMatrixEqual	/;"	d
+XftMatrixInit	include/X11/Xft/XftCompat.h	/^#define XftMatrixInit(/;"	d
+XftMatrixMultiply	include/X11/Xft/XftCompat.h	/^#define XftMatrixMultiply	/;"	d
+XftMatrixRotate	include/X11/Xft/XftCompat.h	/^#define XftMatrixRotate	/;"	d
+XftMatrixScale	include/X11/Xft/XftCompat.h	/^#define XftMatrixScale	/;"	d
+XftMatrixShear	include/X11/Xft/XftCompat.h	/^#define XftMatrixShear	/;"	d
+XftMaxFreeTypeFiles	src/xftfreetype.c	/^static int XftMaxFreeTypeFiles = 5;$/;"	v	typeref:typename:int	file:
+XftMemAlloc	src/xftinit.c	/^XftMemAlloc (int kind, int size)$/;"	f	typeref:typename:_X_HIDDEN void
+XftMemFree	src/xftinit.c	/^XftMemFree (int kind, int size)$/;"	f	typeref:typename:_X_HIDDEN void
+XftMemNotice	src/xftinit.c	/^static const int  XftMemNotice = 1*1024*1024;$/;"	v	typeref:typename:const int	file:
+XftMemReport	src/xftinit.c	/^XftMemReport (void)$/;"	f	typeref:typename:_X_HIDDEN void
+XftNameParse	src/xftname.c	/^*XftNameParse (const char *name)$/;"	f	typeref:typename:_X_EXPORT FcPattern *
+XftNameUnparse	src/xftname.c	/^XftNameUnparse (FcPattern *pat, char *dest, int len)$/;"	f	typeref:typename:_X_EXPORT FcBool
+XftNativeByteOrder	src/xftswap.c	/^XftNativeByteOrder (void)$/;"	f	typeref:typename:_X_HIDDEN int
+XftObjectSet	include/X11/Xft/XftCompat.h	/^typedef FcObjectSet	XftObjectSet;$/;"	t	typeref:typename:FcObjectSet
+XftObjectSetAdd	include/X11/Xft/XftCompat.h	/^#define XftObjectSetAdd	/;"	d
+XftObjectSetBuild	include/X11/Xft/XftCompat.h	/^#define XftObjectSetBuild	/;"	d
+XftObjectSetCreate	include/X11/Xft/XftCompat.h	/^#define XftObjectSetCreate	/;"	d
+XftObjectSetDestroy	include/X11/Xft/XftCompat.h	/^#define XftObjectSetDestroy	/;"	d
+XftObjectSetVaBuild	include/X11/Xft/XftCompat.h	/^#define XftObjectSetVaBuild	/;"	d
+XftOverC	src/xftcore.c	/^#define XftOverC(/;"	d	file:
+XftOverU	src/xftcore.c	/^#define XftOverU(/;"	d	file:
+XftPattern	include/X11/Xft/XftCompat.h	/^typedef FcPattern	XftPattern;$/;"	t	typeref:typename:FcPattern
+XftPatternAdd	include/X11/Xft/XftCompat.h	/^#define XftPatternAdd	/;"	d
+XftPatternAddBool	include/X11/Xft/XftCompat.h	/^#define XftPatternAddBool	/;"	d
+XftPatternAddDouble	include/X11/Xft/XftCompat.h	/^#define XftPatternAddDouble	/;"	d
+XftPatternAddInteger	include/X11/Xft/XftCompat.h	/^#define XftPatternAddInteger	/;"	d
+XftPatternAddMatrix	include/X11/Xft/XftCompat.h	/^#define XftPatternAddMatrix	/;"	d
+XftPatternAddString	include/X11/Xft/XftCompat.h	/^#define XftPatternAddString(/;"	d
+XftPatternBuild	include/X11/Xft/XftCompat.h	/^#define XftPatternBuild	/;"	d
+XftPatternCreate	include/X11/Xft/XftCompat.h	/^#define XftPatternCreate	/;"	d
+XftPatternDel	include/X11/Xft/XftCompat.h	/^#define XftPatternDel	/;"	d
+XftPatternDestroy	include/X11/Xft/XftCompat.h	/^#define XftPatternDestroy	/;"	d
+XftPatternDuplicate	include/X11/Xft/XftCompat.h	/^#define XftPatternDuplicate	/;"	d
+XftPatternFind	include/X11/Xft/XftCompat.h	/^#define XftPatternFind	/;"	d
+XftPatternGet	include/X11/Xft/XftCompat.h	/^#define XftPatternGet	/;"	d
+XftPatternGetBool	include/X11/Xft/XftCompat.h	/^#define XftPatternGetBool	/;"	d
+XftPatternGetDouble	include/X11/Xft/XftCompat.h	/^#define XftPatternGetDouble	/;"	d
+XftPatternGetInteger	include/X11/Xft/XftCompat.h	/^#define XftPatternGetInteger	/;"	d
+XftPatternGetMatrix	include/X11/Xft/XftCompat.h	/^#define XftPatternGetMatrix	/;"	d
+XftPatternGetString	include/X11/Xft/XftCompat.h	/^#define XftPatternGetString(/;"	d
+XftPatternVaBuild	include/X11/Xft/XftCompat.h	/^#define XftPatternVaBuild	/;"	d
+XftPreferFormat	src/xftrender.c	/^XftPreferFormat (Display *dpy, XRenderPictFormat *a, XRenderPictFormat *b)$/;"	f	typeref:typename:XRenderPictFormat *	file:
+XftRectCore	src/xftcore.c	/^XftRectCore (XftDraw		*draw,$/;"	f	typeref:typename:_X_HIDDEN void
+XftResult	include/X11/Xft/XftCompat.h	/^typedef FcResult    XftResult;$/;"	t	typeref:typename:FcResult
+XftResultMatch	include/X11/Xft/XftCompat.h	/^#define XftResultMatch	/;"	d
+XftResultNoId	include/X11/Xft/XftCompat.h	/^#define XftResultNoId	/;"	d
+XftResultNoMatch	include/X11/Xft/XftCompat.h	/^#define XftResultNoMatch	/;"	d
+XftResultTypeMismatch	include/X11/Xft/XftCompat.h	/^#define XftResultTypeMismatch	/;"	d
+XftSharpGlyph	src/xftcore.c	/^typedef void (*XftSharpGlyph) (XftDraw	*draw,$/;"	t	typeref:typename:void (*)(XftDraw * draw,XftGlyph * glyph,int x,int y)	file:
+XftSmoothGlyph	src/xftcore.c	/^typedef	void (*XftSmoothGlyph) (XImage		    *image,$/;"	t	typeref:typename:void (*)(XImage * image,_Xconst XftGlyph * xftg,int x,int y,_Xconst XftColor * color)	file:
+XftSolidColor	src/xftint.h	/^} XftSolidColor;$/;"	t	typeref:struct:_XftSolidColor
+XftSplitStr	src/xftxlfd.c	/^XftSplitStr (const char *field, char *save)$/;"	f	typeref:typename:char *	file:
+XftSwapCARD16	src/xftswap.c	/^XftSwapCARD16 (CARD16 *data, int u)$/;"	f	typeref:typename:_X_HIDDEN void
+XftSwapCARD24	src/xftswap.c	/^XftSwapCARD24 (CARD8 *data, int width, int height)$/;"	f	typeref:typename:_X_HIDDEN void
+XftSwapCARD32	src/xftswap.c	/^XftSwapCARD32 (CARD32 *data, int u)$/;"	f	typeref:typename:_X_HIDDEN void
+XftSwapImage	src/xftswap.c	/^XftSwapImage (XImage *image)$/;"	f	typeref:typename:_X_HIDDEN void
+XftSymbolic	src/xftint.h	/^} XftSymbolic;$/;"	t	typeref:struct:_XftSymbolic
+XftTextExtents16	src/xftextent.c	/^XftTextExtents16 (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftTextExtents32	src/xftextent.c	/^XftTextExtents32 (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftTextExtents8	src/xftextent.c	/^XftTextExtents8 (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftTextExtentsUtf16	src/xftextent.c	/^XftTextExtentsUtf16 (Display		*dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftTextExtentsUtf8	src/xftextent.c	/^XftTextExtentsUtf8 (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftTextRender16	src/xftrender.c	/^XftTextRender16 (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftTextRender16BE	src/xftrender.c	/^XftTextRender16BE (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftTextRender16LE	src/xftrender.c	/^XftTextRender16LE (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftTextRender32	src/xftrender.c	/^XftTextRender32 (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftTextRender32BE	src/xftrender.c	/^XftTextRender32BE (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftTextRender32LE	src/xftrender.c	/^XftTextRender32LE (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftTextRender8	src/xftrender.c	/^XftTextRender8 (Display		*dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftTextRenderUtf16	src/xftrender.c	/^XftTextRenderUtf16 (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftTextRenderUtf8	src/xftrender.c	/^XftTextRenderUtf8 (Display	    *dpy,$/;"	f	typeref:typename:_X_EXPORT void
+XftType	include/X11/Xft/XftCompat.h	/^typedef FcType XftType;$/;"	t	typeref:typename:FcType
+XftTypeBool	include/X11/Xft/XftCompat.h	/^#define XftTypeBool	/;"	d
+XftTypeDouble	include/X11/Xft/XftCompat.h	/^#define XftTypeDouble	/;"	d
+XftTypeInteger	include/X11/Xft/XftCompat.h	/^#define XftTypeInteger	/;"	d
+XftTypeMatrix	include/X11/Xft/XftCompat.h	/^#define XftTypeMatrix	/;"	d
+XftTypeString	include/X11/Xft/XftCompat.h	/^#define XftTypeString	/;"	d
+XftTypeVoid	include/X11/Xft/XftCompat.h	/^#define XftTypeVoid	/;"	d
+XftUcsHash	src/xftint.h	/^} XftUcsHash;$/;"	t	typeref:struct:_XftUcsHash
+XftUnlockFace	src/xftfreetype.c	/^XftUnlockFace (XftFont *public)$/;"	f	typeref:typename:_X_EXPORT void
+XftUtf8Len	include/X11/Xft/XftCompat.h	/^#define XftUtf8Len	/;"	d
+XftUtf8ToUcs4	include/X11/Xft/XftCompat.h	/^#define XftUtf8ToUcs4	/;"	d
+XftValue	include/X11/Xft/XftCompat.h	/^typedef FcValue		XftValue;$/;"	t	typeref:typename:FcValue
+XftValueDestroy	include/X11/Xft/XftCompat.h	/^#define XftValueDestroy	/;"	d
+XftValueListDestroy	include/X11/Xft/XftCompat.h	/^#define XftValueListDestroy	/;"	d
+XftVersion	include/X11/Xft/Xft.h	/^#define XftVersion	/;"	d
+XftVersion	include/X11/Xft/Xft.h.in	/^#define XftVersion	/;"	d	file:
+XftXlfdParse	src/xftxlfd.c	/^XftXlfdParse (const char *xlfd_orig, FcBool ignore_scalable, FcBool complete)$/;"	f	typeref:typename:_X_EXPORT FcPattern *
+XftXlfdSlants	src/xftxlfd.c	/^static XftSymbolic XftXlfdSlants[] = {$/;"	v	typeref:typename:XftSymbolic[]	file:
+XftXlfdWeights	src/xftxlfd.c	/^static XftSymbolic XftXlfdWeights[] = {$/;"	v	typeref:typename:XftSymbolic[]	file:
+Y_SIZE	src/xftfreetype.c	/^#define Y_SIZE(/;"	d	file:
+_XFTCOMPAT_H_	include/X11/Xft/XftCompat.h	/^#define _XFTCOMPAT_H_$/;"	d
+_XFTINT_H_	src/xftint.h	/^#define _XFTINT_H_$/;"	d
+_XFT_H_	include/X11/Xft/Xft.h	/^#define _XFT_H_$/;"	d
+_XFT_H_	include/X11/Xft/Xft.h.in	/^#define _XFT_H_$/;"	d	file:
+_XFT_NO_COMPAT_	src/xftint.h	/^#define _XFT_NO_COMPAT_$/;"	d
+_X_EXPORT	src/xftint.h	/^# define _X_EXPORT /;"	d
+_X_HIDDEN	src/xftint.h	/^# define _X_HIDDEN /;"	d
+_X_SENTINEL	include/X11/Xft/Xft.h	/^# define _X_SENTINEL(/;"	d
+_X_SENTINEL	include/X11/Xft/Xft.h.in	/^# define _X_SENTINEL(/;"	d	file:
+_XftCharFontSpec	include/X11/Xft/Xft.h	/^typedef struct _XftCharFontSpec {$/;"	s
+_XftCharFontSpec	include/X11/Xft/Xft.h.in	/^typedef struct _XftCharFontSpec {$/;"	s	file:
+_XftCharSpec	include/X11/Xft/Xft.h	/^typedef struct _XftCharSpec {$/;"	s
+_XftCharSpec	include/X11/Xft/Xft.h.in	/^typedef struct _XftCharSpec {$/;"	s	file:
+_XftClip	src/xftint.h	/^typedef union _XftClip {$/;"	u
+_XftClipRect	src/xftint.h	/^typedef struct _XftClipRect {$/;"	s
+_XftClipType	src/xftint.h	/^typedef enum _XftClipType {$/;"	g
+_XftCloseDisplay	src/xftdpy.c	/^_XftCloseDisplay (Display *dpy, XExtCodes *codes)$/;"	f	typeref:typename:int	file:
+_XftColor	include/X11/Xft/Xft.h	/^typedef struct _XftColor {$/;"	s
+_XftColor	include/X11/Xft/Xft.h.in	/^typedef struct _XftColor {$/;"	s	file:
+_XftConfigInitialized	src/xftinit.c	/^static Bool _XftConfigInitialized;$/;"	v	typeref:typename:Bool	file:
+_XftDefaultGet	src/xftdpy.c	/^_XftDefaultGet (Display *dpy, const char *object, int screen, FcValue *v)$/;"	f	typeref:typename:FcResult	file:
+_XftDefaultInit	src/xftdpy.c	/^_XftDefaultInit (Display *dpy)$/;"	f	typeref:typename:FcPattern *	file:
+_XftDefaultInitBool	src/xftdpy.c	/^_XftDefaultInitBool (Display *dpy, FcPattern *pat, const char *option)$/;"	f	typeref:typename:Bool	file:
+_XftDefaultInitDouble	src/xftdpy.c	/^_XftDefaultInitDouble (Display *dpy, FcPattern *pat, const char *option)$/;"	f	typeref:typename:Bool	file:
+_XftDefaultInitInteger	src/xftdpy.c	/^_XftDefaultInitInteger (Display *dpy, FcPattern *pat, const char *option)$/;"	f	typeref:typename:Bool	file:
+_XftDisplayInfo	src/xftdpy.c	/^_X_HIDDEN XftDisplayInfo	*_XftDisplayInfo;$/;"	v	typeref:typename:_X_HIDDEN XftDisplayInfo *
+_XftDisplayInfo	src/xftint.h	/^typedef struct _XftDisplayInfo {$/;"	s
+_XftDisplayInfoGet	src/xftdpy.c	/^_XftDisplayInfoGet (Display *dpy, FcBool createIfNecessary)$/;"	f	typeref:typename:_X_HIDDEN XftDisplayInfo *
+_XftDisplayManageMemory	src/xftdpy.c	/^_XftDisplayManageMemory (Display *dpy)$/;"	f	typeref:typename:_X_HIDDEN void
+_XftDisplayValidateMemory	src/xftdpy.c	/^_XftDisplayValidateMemory (XftDisplayInfo *info)$/;"	f	typeref:typename:void	file:
+_XftDraw	src/xftint.h	/^struct _XftDraw {$/;"	s
+_XftDrawCorePrepare	src/xftdraw.c	/^_XftDrawCorePrepare (XftDraw *draw, _Xconst XftColor *color)$/;"	f	typeref:typename:FcBool	file:
+_XftDrawFormat	src/xftdraw.c	/^_XftDrawFormat (XftDraw	*draw)$/;"	f	typeref:typename:XRenderPictFormat *	file:
+_XftDrawOp	src/xftdraw.c	/^_XftDrawOp (_Xconst XftDraw *draw, _Xconst XftColor *color)$/;"	f	typeref:typename:int	file:
+_XftDrawRenderPrepare	src/xftdraw.c	/^_XftDrawRenderPrepare (XftDraw	*draw)$/;"	f	typeref:typename:FcBool	file:
+_XftDrawScreen	src/xftdraw.c	/^_XftDrawScreen (Display *dpy, Drawable drawable, Visual *visual)$/;"	f	typeref:typename:int	file:
+_XftExamineBitfield	src/xftcore.c	/^_XftExamineBitfield (unsigned long mask, int *shift, int *len)$/;"	f	typeref:typename:void	file:
+_XftFTlibrary	src/xftfreetype.c	/^_X_HIDDEN FT_Library  _XftFTlibrary;$/;"	v	typeref:typename:_X_HIDDEN FT_Library
+_XftFont	include/X11/Xft/Xft.h	/^typedef struct _XftFont {$/;"	s
+_XftFont	include/X11/Xft/Xft.h.in	/^typedef struct _XftFont {$/;"	s	file:
+_XftFontInfo	src/xftint.h	/^struct _XftFontInfo {$/;"	s
+_XftFontInt	src/xftint.h	/^typedef struct _XftFontInt {$/;"	s
+_XftFontManageMemory	src/xftglyphs.c	/^_XftFontManageMemory (Display *dpy, XftFont *pub)$/;"	f	typeref:typename:_X_HIDDEN void
+_XftFontUncacheGlyph	src/xftglyphs.c	/^_XftFontUncacheGlyph (Display *dpy, XftFont *pub)$/;"	f	typeref:typename:_X_HIDDEN void
+_XftFontValidateMemory	src/xftglyphs.c	/^_XftFontValidateMemory (Display *dpy, XftFont *public)$/;"	f	typeref:typename:void	file:
+_XftFtFile	src/xftint.h	/^typedef struct _XftFtFile {$/;"	s
+_XftFtFiles	src/xftfreetype.c	/^static XftFtFile *_XftFtFiles;$/;"	v	typeref:typename:XftFtFile *	file:
+_XftGetFaceFile	src/xftfreetype.c	/^_XftGetFaceFile (FT_Face face)$/;"	f	typeref:typename:XftFtFile *	file:
+_XftGetField	src/xftcore.c	/^_XftGetField (unsigned long l_pixel, int shift, int len)$/;"	f	typeref:typename:CARD32	file:
+_XftGetFile	src/xftfreetype.c	/^_XftGetFile (const FcChar8 *file, int id)$/;"	f	typeref:typename:XftFtFile *	file:
+_XftGlyph	src/xftint.h	/^typedef struct _XftGlyph {$/;"	s
+_XftGlyphDefault	src/xftcore.c	/^_XftGlyphDefault (Display *dpy, XftFont   *public)$/;"	f	typeref:typename:XftGlyph *	file:
+_XftGlyphFontSpec	include/X11/Xft/Xft.h	/^typedef struct _XftGlyphFontSpec {$/;"	s
+_XftGlyphFontSpec	include/X11/Xft/Xft.h.in	/^typedef struct _XftGlyphFontSpec {$/;"	s	file:
+_XftGlyphSpec	include/X11/Xft/Xft.h	/^typedef struct _XftGlyphSpec {$/;"	s
+_XftGlyphSpec	include/X11/Xft/Xft.h.in	/^typedef struct _XftGlyphSpec {$/;"	s	file:
+_XftHashSize	src/xftfreetype.c	/^_XftHashSize (FcChar32 num_unicode)$/;"	f	typeref:typename:FcChar32	file:
+_XftIsPrime	src/xftfreetype.c	/^_XftIsPrime (FcChar32 i)$/;"	f	typeref:typename:FcBool	file:
+_XftLockError	src/xftfreetype.c	/^_XftLockError (const char *reason)$/;"	f	typeref:typename:void	file:
+_XftLockFile	src/xftfreetype.c	/^_XftLockFile (XftFtFile *f)$/;"	f	typeref:typename:FT_Face	file:
+_XftMatchSymbolic	src/xftstr.c	/^_XftMatchSymbolic (XftSymbolic *s, int n, const char *name, int def)$/;"	f	typeref:typename:_X_HIDDEN int
+_XftMatcher	src/xftint.h	/^typedef struct _XftMatcher {$/;"	s
+_XftNameInit	src/xftname.c	/^_XftNameInit (void)$/;"	f	typeref:typename:_X_HIDDEN void
+_XftNameInitialized	src/xftname.c	/^static FcBool _XftNameInitialized;$/;"	v	typeref:typename:FcBool	file:
+_XftNthFile	src/xftfreetype.c	/^_XftNthFile (int n)$/;"	f	typeref:typename:XftFtFile *	file:
+_XftNumFiles	src/xftfreetype.c	/^_XftNumFiles (void)$/;"	f	typeref:typename:int	file:
+_XftObjectTypes	src/xftname.c	/^static const FcObjectType	_XftObjectTypes[] = {$/;"	v	typeref:typename:const FcObjectType[]	file:
+_XftPutField	src/xftcore.c	/^_XftPutField (CARD32 pixel, int shift, int len)$/;"	f	typeref:typename:unsigned long	file:
+_XftReleaseFile	src/xftfreetype.c	/^_XftReleaseFile (XftFtFile *f)$/;"	f	typeref:typename:void	file:
+_XftSetFace	src/xftfreetype.c	/^_XftSetFace (XftFtFile *f, FT_F26Dot6 xsize, FT_F26Dot6 ysize, FT_Matrix *matrix)$/;"	f	typeref:typename:_X_HIDDEN FcBool
+_XftSharpGlyphFind	src/xftcore.c	/^_XftSharpGlyphFind (XftDraw *draw, XftFont *public)$/;"	f	typeref:typename:XftSharpGlyph	file:
+_XftSharpGlyphGray	src/xftcore.c	/^_XftSharpGlyphGray (XftDraw	*draw,$/;"	f	typeref:typename:void	file:
+_XftSharpGlyphMono	src/xftcore.c	/^_XftSharpGlyphMono (XftDraw	*draw,$/;"	f	typeref:typename:void	file:
+_XftSharpGlyphRgba	src/xftcore.c	/^_XftSharpGlyphRgba (XftDraw	*draw,$/;"	f	typeref:typename:void	file:
+_XftSmoothGlyphFind	src/xftcore.c	/^_XftSmoothGlyphFind (XftDraw *draw, XftFont *public)$/;"	f	typeref:typename:XftSmoothGlyph	file:
+_XftSmoothGlyphGray	src/xftcore.c	/^_XftSmoothGlyphGray (XImage		*image,$/;"	f	typeref:typename:void	file:
+_XftSmoothGlyphGray555	src/xftcore.c	/^_XftSmoothGlyphGray555 (XImage		    *image,$/;"	f	typeref:typename:void	file:
+_XftSmoothGlyphGray565	src/xftcore.c	/^_XftSmoothGlyphGray565 (XImage		    *image,$/;"	f	typeref:typename:void	file:
+_XftSmoothGlyphGray8888	src/xftcore.c	/^_XftSmoothGlyphGray8888 (XImage		    *image,$/;"	f	typeref:typename:void	file:
+_XftSmoothGlyphMono	src/xftcore.c	/^_XftSmoothGlyphMono (XImage		*image,$/;"	f	typeref:typename:void	file:
+_XftSmoothGlyphPossible	src/xftcore.c	/^_XftSmoothGlyphPossible (XftDraw *draw)$/;"	f	typeref:typename:FcBool	file:
+_XftSmoothGlyphRgba	src/xftcore.c	/^_XftSmoothGlyphRgba (XImage		*image,$/;"	f	typeref:typename:void	file:
+_XftSolidColor	src/xftint.h	/^typedef struct _XftSolidColor {$/;"	s
+_XftSqrt	src/xftfreetype.c	/^_XftSqrt (FcChar32 a)$/;"	f	typeref:typename:FcChar32	file:
+_XftSymbolic	src/xftint.h	/^typedef struct _XftSymbolic {$/;"	s
+_XftUcsHash	src/xftint.h	/^typedef struct _XftUcsHash {$/;"	s
+_XftUncacheFiles	src/xftfreetype.c	/^_XftUncacheFiles (void)$/;"	f	typeref:typename:void	file:
+_XftUnlockFile	src/xftfreetype.c	/^_XftUnlockFile (XftFtFile *f)$/;"	f	typeref:typename:void	file:
+__anon2cfe06af0108	src/xftint.h	/^    struct {$/;"	s	struct:_XftDraw
+__anon2cfe06af0208	src/xftint.h	/^    struct {$/;"	s	struct:_XftDraw
+__anonccb9f7130108	src/xftinit.c	/^static struct {$/;"	s	file:
+_compute_xrender_bitmap_size	src/xftglyphs.c	/^_compute_xrender_bitmap_size( FT_Bitmap*	target,$/;"	f	typeref:typename:int	file:
+_fill_xrender_bitmap	src/xftglyphs.c	/^_fill_xrender_bitmap( FT_Bitmap*	target,$/;"	f	typeref:typename:void	file:
+a/src/xftfreetype.c	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^--- a\/src\/xftfreetype.c$/;"	m
+a/src/xftglyphs.c	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^--- a\/src\/xftglyphs.c$/;"	m
+a/src/xftint.h	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^--- a\/src\/xftint.h$/;"	m
+a/src/xftrender.c	7808631e7a9a605d5fe7a1077129c658d9ec47fc.patch	/^--- a\/src\/xftrender.c$/;"	m
+alloc_count	src/xftinit.c	/^    int	    alloc_count;$/;"	m	struct:__anonccb9f7130108	typeref:typename:int	file:
+alloc_mem	src/xftinit.c	/^    int	    alloc_mem;$/;"	m	struct:__anonccb9f7130108	typeref:typename:int	file:
+antialias	src/xftint.h	/^    FcBool		antialias;	\/* doing antialiasing *\/$/;"	m	struct:_XftFontInfo	typeref:typename:FcBool
+ascent	include/X11/Xft/Xft.h	/^    int		ascent;$/;"	m	struct:_XftFont	typeref:typename:int
+ascent	include/X11/Xft/Xft.h.in	/^    int		ascent;$/;"	m	struct:_XftFont	typeref:typename:int	file:
+bitmap	src/xftint.h	/^    void	    *bitmap;$/;"	m	struct:_XftGlyph	typeref:typename:void *
+bits_per_pixel	src/xftint.h	/^    unsigned int    bits_per_pixel;$/;"	m	struct:_XftDraw	typeref:typename:unsigned int
+char_width	src/xftint.h	/^    int			char_width;$/;"	m	struct:_XftFontInfo	typeref:typename:int
+charset	include/X11/Xft/Xft.h	/^    FcCharSet	*charset;$/;"	m	struct:_XftFont	typeref:typename:FcCharSet *
+charset	include/X11/Xft/Xft.h.in	/^    FcCharSet	*charset;$/;"	m	struct:_XftFont	typeref:typename:FcCharSet *	file:
+clip	src/xftint.h	/^    XftClip	    clip;$/;"	m	struct:_XftDraw	typeref:typename:XftClip
+clip_type	src/xftint.h	/^    XftClipType	    clip_type;$/;"	m	struct:_XftDraw	typeref:typename:XftClipType
+codes	src/xftint.h	/^    XExtCodes		    *codes;$/;"	m	struct:_XftDisplayInfo	typeref:typename:XExtCodes *
+color	include/X11/Xft/Xft.h	/^    XRenderColor    color;$/;"	m	struct:_XftColor	typeref:typename:XRenderColor
+color	include/X11/Xft/Xft.h.in	/^    XRenderColor    color;$/;"	m	struct:_XftColor	typeref:typename:XRenderColor	file:
+color	src/xftint.h	/^    XRenderColor    color;$/;"	m	struct:_XftSolidColor	typeref:typename:XRenderColor
+colormap	src/xftint.h	/^    Colormap	    colormap;$/;"	m	struct:_XftDraw	typeref:typename:Colormap
+colors	src/xftint.h	/^    XftSolidColor	    colors[XFT_NUM_SOLID_COLOR];$/;"	m	struct:_XftDisplayInfo	typeref:typename:XftSolidColor[]
+compare	src/xftint.h	/^    double  (*compare) (char *object, FcValue value1, FcValue value2);$/;"	m	struct:_XftMatcher	typeref:typename:double (*)(char * object,FcValue value1,FcValue value2)
+core	src/xftint.h	/^    } core;$/;"	m	struct:_XftDraw	typeref:struct:_XftDraw::__anon2cfe06af0208
+cvt0555to8888	src/xftcore.c	/^#define cvt0555to8888(/;"	d	file:
+cvt0565to8888	src/xftcore.c	/^#define cvt0565to8888(/;"	d	file:
+cvt8888to0555	src/xftcore.c	/^#define cvt8888to0555(/;"	d	file:
+cvt8888to0565	src/xftcore.c	/^#define cvt8888to0565(/;"	d	file:
+defaults	src/xftint.h	/^    FcPattern		    *defaults;$/;"	m	struct:_XftDisplayInfo	typeref:typename:FcPattern *
+depth	src/xftint.h	/^    unsigned int    depth;$/;"	m	struct:_XftDraw	typeref:typename:unsigned int
+descent	include/X11/Xft/Xft.h	/^    int		descent;$/;"	m	struct:_XftFont	typeref:typename:int
+descent	include/X11/Xft/Xft.h.in	/^    int		descent;$/;"	m	struct:_XftFont	typeref:typename:int	file:
+display	src/xftint.h	/^    Display		    *display;$/;"	m	struct:_XftDisplayInfo	typeref:typename:Display *
+dist	src/xftfreetype.c	/^#define dist(/;"	d	file:
+dist-hook	Makefile.am	/^dist-hook: ChangeLog INSTALL$/;"	t
+dpy	src/xftint.h	/^    Display	    *dpy;$/;"	m	struct:_XftDraw	typeref:typename:Display *
+drawable	src/xftint.h	/^    Drawable	    drawable;$/;"	m	struct:_XftDraw	typeref:typename:Drawable
+embolden	src/xftint.h	/^    FcBool		embolden;	\/* force emboldening *\/$/;"	m	struct:_XftFontInfo	typeref:typename:FcBool
+face	src/xftint.h	/^    FT_Face		face;	    \/* pointer to face; only valid when lock *\/$/;"	m	struct:_XftFtFile	typeref:typename:FT_Face
+fbIn	src/xftcore.c	/^fbIn (CARD32 x, CARD8 y)$/;"	f	typeref:typename:CARD32	file:
+fbOver24	src/xftcore.c	/^fbOver24 (CARD32 x, CARD32 y)$/;"	f	typeref:typename:CARD32	file:
+file	src/xftint.h	/^    XftFtFile		*file;		\/* face source *\/$/;"	m	struct:_XftFontInfo	typeref:typename:XftFtFile *
+file	src/xftint.h	/^    char		*file;	    \/* file name *\/$/;"	m	struct:_XftFtFile	typeref:typename:char *
+font	include/X11/Xft/Xft.h	/^    XftFont	    *font;$/;"	m	struct:_XftCharFontSpec	typeref:typename:XftFont *
+font	include/X11/Xft/Xft.h	/^    XftFont	    *font;$/;"	m	struct:_XftGlyphFontSpec	typeref:typename:XftFont *
+font	include/X11/Xft/Xft.h.in	/^    XftFont	    *font;$/;"	m	struct:_XftCharFontSpec	typeref:typename:XftFont *	file:
+font	include/X11/Xft/Xft.h.in	/^    XftFont	    *font;$/;"	m	struct:_XftGlyphFontSpec	typeref:typename:XftFont *	file:
+fontHash	src/xftint.h	/^    XftFont		    *fontHash[XFT_NUM_FONT_HASH];$/;"	m	struct:_XftDisplayInfo	typeref:typename:XftFont * []
+fonts	src/xftint.h	/^    XftFont		    *fonts;$/;"	m	struct:_XftDisplayInfo	typeref:typename:XftFont *
+format	src/xftint.h	/^    XRenderPictFormat	*format;	\/* Render format for glyphs *\/$/;"	m	struct:_XftFontInt	typeref:typename:XRenderPictFormat *
+free_count	src/xftinit.c	/^    int	    free_count;$/;"	m	struct:__anonccb9f7130108	typeref:typename:int	file:
+free_mem	src/xftinit.c	/^    int	    free_mem;$/;"	m	struct:__anonccb9f7130108	typeref:typename:int	file:
+gc	src/xftint.h	/^	GC		gc;$/;"	m	struct:_XftDraw::__anon2cfe06af0208	typeref:typename:GC
+glyph	include/X11/Xft/Xft.h	/^    FT_UInt	    glyph;$/;"	m	struct:_XftGlyphFontSpec	typeref:typename:FT_UInt
+glyph	include/X11/Xft/Xft.h	/^    FT_UInt	    glyph;$/;"	m	struct:_XftGlyphSpec	typeref:typename:FT_UInt
+glyph	include/X11/Xft/Xft.h.in	/^    FT_UInt	    glyph;$/;"	m	struct:_XftGlyphFontSpec	typeref:typename:FT_UInt	file:
+glyph	include/X11/Xft/Xft.h.in	/^    FT_UInt	    glyph;$/;"	m	struct:_XftGlyphSpec	typeref:typename:FT_UInt	file:
+glyph	src/xftint.h	/^    FT_UInt	    glyph;$/;"	m	struct:_XftUcsHash	typeref:typename:FT_UInt
+glyph_memory	src/xftint.h	/^    unsigned long	    glyph_memory;$/;"	m	struct:_XftDisplayInfo	typeref:typename:unsigned long
+glyph_memory	src/xftint.h	/^    unsigned long	glyph_memory;$/;"	m	struct:_XftFontInt	typeref:typename:unsigned long
+glyph_memory	src/xftint.h	/^    unsigned long   glyph_memory;$/;"	m	struct:_XftGlyph	typeref:typename:unsigned long
+glyphs	src/xftint.h	/^    XftGlyph		**glyphs;$/;"	m	struct:_XftFontInt	typeref:typename:XftGlyph **
+glyphset	src/xftint.h	/^    GlyphSet		glyphset;	\/* Render glyphset *\/$/;"	m	struct:_XftFontInt	typeref:typename:GlyphSet
+hasRender	src/xftint.h	/^    FcBool		    hasRender;$/;"	m	struct:_XftDisplayInfo	typeref:typename:FcBool
+hasSolid	src/xftint.h	/^    FcBool		    hasSolid;$/;"	m	struct:_XftDisplayInfo	typeref:typename:FcBool
+hash	src/xftint.h	/^    FcChar32		hash;$/;"	m	struct:_XftFontInfo	typeref:typename:FcChar32
+hash_next	src/xftint.h	/^    XftFont		*hash_next;	\/* fonts in this hash chain *\/$/;"	m	struct:_XftFontInt	typeref:typename:XftFont *
+hash_table	src/xftint.h	/^    XftUcsHash		*hash_table;$/;"	m	struct:_XftFontInt	typeref:typename:XftUcsHash *
+hash_value	src/xftint.h	/^    int			hash_value;$/;"	m	struct:_XftFontInt	typeref:typename:int
+height	include/X11/Xft/Xft.h	/^    int		height;$/;"	m	struct:_XftFont	typeref:typename:int
+height	include/X11/Xft/Xft.h.in	/^    int		height;$/;"	m	struct:_XftFont	typeref:typename:int	file:
+id	src/xftint.h	/^    int			id;	    \/* font index within that file *\/$/;"	m	struct:_XftFtFile	typeref:typename:int
+info	src/xftint.h	/^    XftFontInfo		info;		\/* Data from pattern *\/$/;"	m	struct:_XftFontInt	typeref:typename:XftFontInfo
+lcd_filter	src/xftint.h	/^    int			lcd_filter;	\/* lcd filter *\/$/;"	m	struct:_XftFontInfo	typeref:typename:int
+libXft	configure.ac	/^AC_INIT([libXft], [2.3.3],$/;"	p
+libXft - X FreeType library	README.md	/^libXft - X FreeType library$/;"	s
+libXft.la	src/Makefile.am	/^lib_LTLIBRARIES = libXft.la$/;"	T	directory:lib
+libXft_la_LDFLAGS	src/Makefile.am	/^libXft_la_LDFLAGS = -version-number $(XFT_LT_VERSION) -no-undefined$/;"	m
+libXft_la_LIBADD	src/Makefile.am	/^libXft_la_LIBADD = @FONTCONFIG_LIBS@ @FREETYPE_LIBS@ @XRENDER_LIBS@$/;"	m
+libXft_la_SOURCES	src/Makefile.am	/^libXft_la_SOURCES = xftint.h \\$/;"	m
+libXftinclude	src/Makefile.am	/^libXftincludedir = $(includedir)\/X11\/Xft$/;"	d
+libXftinclude_HEADERS	src/Makefile.am	/^libXftinclude_HEADERS = \\$/;"	m
+libXftincludedir	src/Makefile.am	/^libXftincludedir = $(includedir)\/X11\/Xft$/;"	m
+lib_LTLIBRARIES	src/Makefile.am	/^lib_LTLIBRARIES = libXft.la$/;"	m
+libman	man/Makefile.am	/^libmandir = $(LIB_MAN_DIR)$/;"	d
+libman_DATA	man/Makefile.am	/^libman_DATA = $(libman_PRE:man=$(LIB_MAN_SUFFIX))$/;"	m
+libman_PRE	man/Makefile.am	/^libman_PRE = Xft.man$/;"	m
+libmandir	man/Makefile.am	/^libmandir = $(LIB_MAN_DIR)$/;"	m
+load_flags	src/xftint.h	/^    FT_Int		load_flags;	\/* glyph load flags *\/$/;"	m	struct:_XftFontInfo	typeref:typename:FT_Int
+lock	src/xftint.h	/^    int			lock;	    \/* lock count; can't unload unless 0 *\/$/;"	m	struct:_XftFtFile	typeref:typename:int
+maskbase	src/xftcolor.c	/^maskbase (unsigned long m)$/;"	f	typeref:typename:short	file:
+masklen	src/xftcolor.c	/^masklen (unsigned long m)$/;"	f	typeref:typename:short	file:
+matrix	src/xftint.h	/^    FT_Matrix		matrix;		\/* glyph transformation matrix *\/$/;"	m	struct:_XftFontInfo	typeref:typename:FT_Matrix
+matrix	src/xftint.h	/^    FT_Matrix		matrix;	    \/* current matrix setting *\/$/;"	m	struct:_XftFtFile	typeref:typename:FT_Matrix
+max_advance_width	include/X11/Xft/Xft.h	/^    int		max_advance_width;$/;"	m	struct:_XftFont	typeref:typename:int
+max_advance_width	include/X11/Xft/Xft.h.in	/^    int		max_advance_width;$/;"	m	struct:_XftFont	typeref:typename:int	file:
+max_glyph_memory	src/xftint.h	/^    unsigned long	    max_glyph_memory;$/;"	m	struct:_XftDisplayInfo	typeref:typename:unsigned long
+max_glyph_memory	src/xftint.h	/^    unsigned long	max_glyph_memory;$/;"	m	struct:_XftFontInt	typeref:typename:unsigned long
+max_unref_fonts	src/xftint.h	/^    int			    max_unref_fonts;$/;"	m	struct:_XftDisplayInfo	typeref:typename:int
+metrics	src/xftint.h	/^    XGlyphInfo	    metrics;$/;"	m	struct:_XftGlyph	typeref:typename:XGlyphInfo
+minspace	src/xftint.h	/^    FcBool		minspace;$/;"	m	struct:_XftFontInfo	typeref:typename:FcBool
+n	src/xftint.h	/^    int			n;$/;"	m	struct:_XftClipRect	typeref:typename:int
+name	src/xftinit.c	/^    const char *name;$/;"	m	struct:__anonccb9f7130108	typeref:typename:const char *	file:
+name	src/xftint.h	/^    const char	*name;$/;"	m	struct:_XftSymbolic	typeref:typename:const char *
+next	src/xftint.h	/^    XftFont		*next;		\/* all fonts on display *\/$/;"	m	struct:_XftFontInt	typeref:typename:XftFont *
+next	src/xftint.h	/^    struct _XftDisplayInfo  *next;$/;"	m	struct:_XftDisplayInfo	typeref:struct:_XftDisplayInfo *
+next	src/xftint.h	/^    struct _XftFtFile	*next;$/;"	m	struct:_XftFtFile	typeref:struct:_XftFtFile *
+num_glyphs	src/xftint.h	/^    int			num_glyphs;	\/* size of glyphs\/bitmaps arrays *\/$/;"	m	struct:_XftFontInt	typeref:typename:int
+num_unref_fonts	src/xftint.h	/^    int			    num_unref_fonts;$/;"	m	struct:_XftDisplayInfo	typeref:typename:int
+object	src/xftint.h	/^    char    *object;$/;"	m	struct:_XftMatcher	typeref:typename:char *
+pattern	include/X11/Xft/Xft.h	/^    FcPattern	*pattern;$/;"	m	struct:_XftFont	typeref:typename:FcPattern *
+pattern	include/X11/Xft/Xft.h.in	/^    FcPattern	*pattern;$/;"	m	struct:_XftFont	typeref:typename:FcPattern *	file:
+pict	src/xftint.h	/^	Picture		pict;$/;"	m	struct:_XftDraw::__anon2cfe06af0108	typeref:typename:Picture
+pict	src/xftint.h	/^    Picture	    pict;$/;"	m	struct:_XftSolidColor	typeref:typename:Picture
+pixel	include/X11/Xft/Xft.h	/^    unsigned long   pixel;$/;"	m	struct:_XftColor	typeref:typename:unsigned long
+pixel	include/X11/Xft/Xft.h.in	/^    unsigned long   pixel;$/;"	m	struct:_XftColor	typeref:typename:unsigned long	file:
+pkgconfig	Makefile.am	/^pkgconfigdir = $(libdir)\/pkgconfig$/;"	d
+pkgconfig_DATA	Makefile.am	/^pkgconfig_DATA = xft.pc$/;"	m
+pkgconfigdir	Makefile.am	/^pkgconfigdir = $(libdir)\/pkgconfig$/;"	m
+public	src/xftint.h	/^    XftFont		public;		\/* public fields *\/$/;"	m	struct:_XftFontInt	typeref:typename:XftFont
+rect	src/xftint.h	/^    XftClipRect	    *rect;$/;"	m	union:_XftClip	typeref:typename:XftClipRect *
+ref	src/xftint.h	/^    int			ref;		\/* reference count *\/$/;"	m	struct:_XftFontInt	typeref:typename:int
+ref	src/xftint.h	/^    int			ref;	    \/* number of font infos using this file *\/$/;"	m	struct:_XftFtFile	typeref:typename:int
+region	src/xftint.h	/^    Region	    region;$/;"	m	union:_XftClip	typeref:typename:Region
+rehash_value	src/xftint.h	/^    int			rehash_value;$/;"	m	struct:_XftFontInt	typeref:typename:int
+render	src/xftint.h	/^    FcBool		render;		\/* whether to use the Render extension *\/$/;"	m	struct:_XftFontInfo	typeref:typename:FcBool
+render	src/xftint.h	/^    } render;$/;"	m	struct:_XftDraw	typeref:struct:_XftDraw::__anon2cfe06af0108
+rgba	src/xftint.h	/^    int			rgba;		\/* subpixel order *\/$/;"	m	struct:_XftFontInfo	typeref:typename:int
+screen	src/xftint.h	/^    int		    screen;$/;"	m	struct:_XftDraw	typeref:typename:int
+screen	src/xftint.h	/^    int		    screen;$/;"	m	struct:_XftSolidColor	typeref:typename:int
+solidFormat	src/xftint.h	/^    XRenderPictFormat	    *solidFormat;$/;"	m	struct:_XftDisplayInfo	typeref:typename:XRenderPictFormat *
+spacing	src/xftint.h	/^    int			spacing;$/;"	m	struct:_XftFontInfo	typeref:typename:int
+subwindow_mode	src/xftint.h	/^    int		    subwindow_mode;$/;"	m	struct:_XftDraw	typeref:typename:int
+swapl	src/xftswap.c	/^#define swapl(/;"	d	file:
+swaps	src/xftswap.c	/^#define swaps(/;"	d	file:
+swapt	src/xftswap.c	/^#define swapt(/;"	d	file:
+transform	src/xftint.h	/^    FcBool		transform;	\/* non-identify matrix? *\/$/;"	m	struct:_XftFontInfo	typeref:typename:FcBool
+ucs4	include/X11/Xft/Xft.h	/^    FcChar32	    ucs4;$/;"	m	struct:_XftCharFontSpec	typeref:typename:FcChar32
+ucs4	include/X11/Xft/Xft.h	/^    FcChar32	    ucs4;$/;"	m	struct:_XftCharSpec	typeref:typename:FcChar32
+ucs4	include/X11/Xft/Xft.h.in	/^    FcChar32	    ucs4;$/;"	m	struct:_XftCharFontSpec	typeref:typename:FcChar32	file:
+ucs4	include/X11/Xft/Xft.h.in	/^    FcChar32	    ucs4;$/;"	m	struct:_XftCharSpec	typeref:typename:FcChar32	file:
+ucs4	src/xftint.h	/^    FcChar32	    ucs4;$/;"	m	struct:_XftUcsHash	typeref:typename:FcChar32
+use_free_glyphs	src/xftint.h	/^    FcBool		    use_free_glyphs;$/;"	m	struct:_XftDisplayInfo	typeref:typename:FcBool
+use_free_glyphs	src/xftint.h	/^    FcBool		use_free_glyphs;   \/* Use XRenderFreeGlyphs *\/$/;"	m	struct:_XftFontInt	typeref:typename:FcBool
+use_pixmap	src/xftint.h	/^	int		use_pixmap;$/;"	m	struct:_XftDraw::__anon2cfe06af0208	typeref:typename:int
+value	src/xftint.h	/^    int		value;$/;"	m	struct:_XftSymbolic	typeref:typename:int
+visual	src/xftint.h	/^    Visual	    *visual;	\/* NULL for bitmaps *\/$/;"	m	struct:_XftDraw	typeref:typename:Visual *
+x	include/X11/Xft/Xft.h	/^    short	    x;$/;"	m	struct:_XftCharFontSpec	typeref:typename:short
+x	include/X11/Xft/Xft.h	/^    short	    x;$/;"	m	struct:_XftCharSpec	typeref:typename:short
+x	include/X11/Xft/Xft.h	/^    short	    x;$/;"	m	struct:_XftGlyphFontSpec	typeref:typename:short
+x	include/X11/Xft/Xft.h	/^    short	    x;$/;"	m	struct:_XftGlyphSpec	typeref:typename:short
+x	include/X11/Xft/Xft.h.in	/^    short	    x;$/;"	m	struct:_XftCharFontSpec	typeref:typename:short	file:
+x	include/X11/Xft/Xft.h.in	/^    short	    x;$/;"	m	struct:_XftCharSpec	typeref:typename:short	file:
+x	include/X11/Xft/Xft.h.in	/^    short	    x;$/;"	m	struct:_XftGlyphFontSpec	typeref:typename:short	file:
+x	include/X11/Xft/Xft.h.in	/^    short	    x;$/;"	m	struct:_XftGlyphSpec	typeref:typename:short	file:
+xOrigin	src/xftint.h	/^    int			xOrigin;$/;"	m	struct:_XftClipRect	typeref:typename:int
+xft.pc	Makefile.am	/^pkgconfig_DATA = xft.pc$/;"	D	directory:pkgconfig
+xft_abs	src/xftfreetype.c	/^#define xft_abs(/;"	d	file:
+xsize	src/xftint.h	/^    FT_F26Dot6		xsize, ysize;	\/* pixel size *\/$/;"	m	struct:_XftFontInfo	typeref:typename:FT_F26Dot6
+xsize	src/xftint.h	/^    FT_F26Dot6		xsize;	    \/* current xsize setting *\/$/;"	m	struct:_XftFtFile	typeref:typename:FT_F26Dot6
+y	include/X11/Xft/Xft.h	/^    short	    y;$/;"	m	struct:_XftCharFontSpec	typeref:typename:short
+y	include/X11/Xft/Xft.h	/^    short	    y;$/;"	m	struct:_XftCharSpec	typeref:typename:short
+y	include/X11/Xft/Xft.h	/^    short	    y;$/;"	m	struct:_XftGlyphFontSpec	typeref:typename:short
+y	include/X11/Xft/Xft.h	/^    short	    y;$/;"	m	struct:_XftGlyphSpec	typeref:typename:short
+y	include/X11/Xft/Xft.h.in	/^    short	    y;$/;"	m	struct:_XftCharFontSpec	typeref:typename:short	file:
+y	include/X11/Xft/Xft.h.in	/^    short	    y;$/;"	m	struct:_XftCharSpec	typeref:typename:short	file:
+y	include/X11/Xft/Xft.h.in	/^    short	    y;$/;"	m	struct:_XftGlyphFontSpec	typeref:typename:short	file:
+y	include/X11/Xft/Xft.h.in	/^    short	    y;$/;"	m	struct:_XftGlyphSpec	typeref:typename:short	file:
+yOrigin	src/xftint.h	/^    int			yOrigin;$/;"	m	struct:_XftClipRect	typeref:typename:int
+ysize	src/xftint.h	/^    FT_F26Dot6		xsize, ysize;	\/* pixel size *\/$/;"	m	struct:_XftFontInfo	typeref:typename:FT_F26Dot6
+ysize	src/xftint.h	/^    FT_F26Dot6		ysize;	    \/* current ysize setting *\/$/;"	m	struct:_XftFtFile	typeref:typename:FT_F26Dot6
